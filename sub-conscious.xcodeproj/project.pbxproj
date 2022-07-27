@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF4047C82890EB32005494DA /* sub_consciousApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4047C72890EB32005494DA /* sub_consciousApp.swift */; };
+		AF4047CA2890EB32005494DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4047C92890EB32005494DA /* ContentView.swift */; };
+		AF4047CC2890EB34005494DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF4047CB2890EB34005494DA /* Assets.xcassets */; };
+		AF4047CF2890EB34005494DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF4047CE2890EB34005494DA /* Preview Assets.xcassets */; };
+		AF4047D92890EB35005494DA /* sub_consciousTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4047D82890EB35005494DA /* sub_consciousTests.swift */; };
+		AF4047E32890EB35005494DA /* sub_consciousUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4047E22890EB35005494DA /* sub_consciousUITests.swift */; };
+		AF4047E52890EB35005494DA /* sub_consciousUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4047E42890EB35005494DA /* sub_consciousUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF4047D52890EB35005494DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF4047BC2890EB32005494DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF4047C32890EB32005494DA;
+			remoteInfo = "sub-conscious";
+		};
+		AF4047DF2890EB35005494DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF4047BC2890EB32005494DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF4047C32890EB32005494DA;
+			remoteInfo = "sub-conscious";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF4047C42890EB32005494DA /* sub-conscious.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sub-conscious.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF4047C72890EB32005494DA /* sub_consciousApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sub_consciousApp.swift; sourceTree = "<group>"; };
+		AF4047C92890EB32005494DA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AF4047CB2890EB34005494DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF4047CE2890EB34005494DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AF4047D42890EB35005494DA /* sub-consciousTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sub-consciousTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF4047D82890EB35005494DA /* sub_consciousTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sub_consciousTests.swift; sourceTree = "<group>"; };
+		AF4047DE2890EB35005494DA /* sub-consciousUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sub-consciousUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF4047E22890EB35005494DA /* sub_consciousUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sub_consciousUITests.swift; sourceTree = "<group>"; };
+		AF4047E42890EB35005494DA /* sub_consciousUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sub_consciousUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF4047C12890EB32005494DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF4047D12890EB35005494DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF4047DB2890EB35005494DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF4047BB2890EB32005494DA = {
+			isa = PBXGroup;
+			children = (
+				AF4047C62890EB32005494DA /* sub-conscious */,
+				AF4047D72890EB35005494DA /* sub-consciousTests */,
+				AF4047E12890EB35005494DA /* sub-consciousUITests */,
+				AF4047C52890EB32005494DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF4047C52890EB32005494DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF4047C42890EB32005494DA /* sub-conscious.app */,
+				AF4047D42890EB35005494DA /* sub-consciousTests.xctest */,
+				AF4047DE2890EB35005494DA /* sub-consciousUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF4047C62890EB32005494DA /* sub-conscious */ = {
+			isa = PBXGroup;
+			children = (
+				AF4047C72890EB32005494DA /* sub_consciousApp.swift */,
+				AF4047C92890EB32005494DA /* ContentView.swift */,
+				AF4047CB2890EB34005494DA /* Assets.xcassets */,
+				AF4047CD2890EB34005494DA /* Preview Content */,
+			);
+			path = "sub-conscious";
+			sourceTree = "<group>";
+		};
+		AF4047CD2890EB34005494DA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AF4047CE2890EB34005494DA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AF4047D72890EB35005494DA /* sub-consciousTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF4047D82890EB35005494DA /* sub_consciousTests.swift */,
+			);
+			path = "sub-consciousTests";
+			sourceTree = "<group>";
+		};
+		AF4047E12890EB35005494DA /* sub-consciousUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AF4047E22890EB35005494DA /* sub_consciousUITests.swift */,
+				AF4047E42890EB35005494DA /* sub_consciousUITestsLaunchTests.swift */,
+			);
+			path = "sub-consciousUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF4047C32890EB32005494DA /* sub-conscious */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF4047E82890EB35005494DA /* Build configuration list for PBXNativeTarget "sub-conscious" */;
+			buildPhases = (
+				AF4047C02890EB32005494DA /* Sources */,
+				AF4047C12890EB32005494DA /* Frameworks */,
+				AF4047C22890EB32005494DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "sub-conscious";
+			productName = "sub-conscious";
+			productReference = AF4047C42890EB32005494DA /* sub-conscious.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF4047D32890EB35005494DA /* sub-consciousTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF4047EB2890EB35005494DA /* Build configuration list for PBXNativeTarget "sub-consciousTests" */;
+			buildPhases = (
+				AF4047D02890EB35005494DA /* Sources */,
+				AF4047D12890EB35005494DA /* Frameworks */,
+				AF4047D22890EB35005494DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF4047D62890EB35005494DA /* PBXTargetDependency */,
+			);
+			name = "sub-consciousTests";
+			productName = "sub-consciousTests";
+			productReference = AF4047D42890EB35005494DA /* sub-consciousTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF4047DD2890EB35005494DA /* sub-consciousUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF4047EE2890EB35005494DA /* Build configuration list for PBXNativeTarget "sub-consciousUITests" */;
+			buildPhases = (
+				AF4047DA2890EB35005494DA /* Sources */,
+				AF4047DB2890EB35005494DA /* Frameworks */,
+				AF4047DC2890EB35005494DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF4047E02890EB35005494DA /* PBXTargetDependency */,
+			);
+			name = "sub-consciousUITests";
+			productName = "sub-consciousUITests";
+			productReference = AF4047DE2890EB35005494DA /* sub-consciousUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF4047BC2890EB32005494DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					AF4047C32890EB32005494DA = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					AF4047D32890EB35005494DA = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = AF4047C32890EB32005494DA;
+					};
+					AF4047DD2890EB35005494DA = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = AF4047C32890EB32005494DA;
+					};
+				};
+			};
+			buildConfigurationList = AF4047BF2890EB32005494DA /* Build configuration list for PBXProject "sub-conscious" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF4047BB2890EB32005494DA;
+			productRefGroup = AF4047C52890EB32005494DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF4047C32890EB32005494DA /* sub-conscious */,
+				AF4047D32890EB35005494DA /* sub-consciousTests */,
+				AF4047DD2890EB35005494DA /* sub-consciousUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF4047C22890EB32005494DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF4047CF2890EB34005494DA /* Preview Assets.xcassets in Resources */,
+				AF4047CC2890EB34005494DA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF4047D22890EB35005494DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF4047DC2890EB35005494DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF4047C02890EB32005494DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF4047CA2890EB32005494DA /* ContentView.swift in Sources */,
+				AF4047C82890EB32005494DA /* sub_consciousApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF4047D02890EB35005494DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF4047D92890EB35005494DA /* sub_consciousTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF4047DA2890EB35005494DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF4047E52890EB35005494DA /* sub_consciousUITestsLaunchTests.swift in Sources */,
+				AF4047E32890EB35005494DA /* sub_consciousUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF4047D62890EB35005494DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF4047C32890EB32005494DA /* sub-conscious */;
+			targetProxy = AF4047D52890EB35005494DA /* PBXContainerItemProxy */;
+		};
+		AF4047E02890EB35005494DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF4047C32890EB32005494DA /* sub-conscious */;
+			targetProxy = AF4047DF2890EB35005494DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AF4047E62890EB35005494DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF4047E72890EB35005494DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF4047E92890EB35005494DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"sub-conscious/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jiajiah.sub-conscious";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF4047EA2890EB35005494DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"sub-conscious/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jiajiah.sub-conscious";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AF4047EC2890EB35005494DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jiajiah.sub-consciousTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sub-conscious.app/sub-conscious";
+			};
+			name = Debug;
+		};
+		AF4047ED2890EB35005494DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jiajiah.sub-consciousTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sub-conscious.app/sub-conscious";
+			};
+			name = Release;
+		};
+		AF4047EF2890EB35005494DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jiajiah.sub-consciousUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "sub-conscious";
+			};
+			name = Debug;
+		};
+		AF4047F02890EB35005494DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jiajiah.sub-consciousUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "sub-conscious";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF4047BF2890EB32005494DA /* Build configuration list for PBXProject "sub-conscious" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF4047E62890EB35005494DA /* Debug */,
+				AF4047E72890EB35005494DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF4047E82890EB35005494DA /* Build configuration list for PBXNativeTarget "sub-conscious" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF4047E92890EB35005494DA /* Debug */,
+				AF4047EA2890EB35005494DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF4047EB2890EB35005494DA /* Build configuration list for PBXNativeTarget "sub-consciousTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF4047EC2890EB35005494DA /* Debug */,
+				AF4047ED2890EB35005494DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF4047EE2890EB35005494DA /* Build configuration list for PBXNativeTarget "sub-consciousUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF4047EF2890EB35005494DA /* Debug */,
+				AF4047F02890EB35005494DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF4047BC2890EB32005494DA /* Project object */;
+}
