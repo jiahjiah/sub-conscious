@@ -11,17 +11,7 @@ struct ContentView: View {
     var body: some View {
         NavigationView{
             ScrollView {
-                VStack(alignment: .leading, spacing: 24) {
-                    //MARK: Title
-                    Text("July")
-                        .font(.title2)
-                        .bold()
-                    
-                    //MARK: TransactionList
-                    AllSubscriptionList()
-                }
-                .padding()
-                .frame(maxWidth: .infinity)
+                HomeView()
             }
             .background(Color.background)
             .navigationBarTitleDisplayMode(.inline)
@@ -48,6 +38,7 @@ struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
             ContentView()
+                .previewInterfaceOrientation(.portrait)
             ContentView()
                 .preferredColorScheme(.dark)
         }

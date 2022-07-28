@@ -20,6 +20,7 @@
 		AF40480328918498005494DA /* SwiftUIFontIcon in Frameworks */ = {isa = PBXBuildFile; productRef = AF40480228918498005494DA /* SwiftUIFontIcon */; };
 		AF404807289185F6005494DA /* SubscriptionListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF404806289185F6005494DA /* SubscriptionListViewModel.swift */; };
 		AF404809289187EA005494DA /* AllSubscriptionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF404808289187EA005494DA /* AllSubscriptionList.swift */; };
+		AF40480E289231B1005494DA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF40480D289231B1005494DA /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		AF4047FF289104F3005494DA /* SubscriptionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionRow.swift; sourceTree = "<group>"; };
 		AF404806289185F6005494DA /* SubscriptionListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionListViewModel.swift; sourceTree = "<group>"; };
 		AF404808289187EA005494DA /* AllSubscriptionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllSubscriptionList.swift; sourceTree = "<group>"; };
+		AF40480D289231B1005494DA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,13 +110,14 @@
 			children = (
 				AF4047C72890EB32005494DA /* sub_consciousApp.swift */,
 				AF4047C92890EB32005494DA /* ContentView.swift */,
-				AF404808289187EA005494DA /* AllSubscriptionList.swift */,
-				AF4047F92890F4D8005494DA /* SubscriptionModel.swift */,
+				AF40480D289231B1005494DA /* HomeView.swift */,
 				AF4047F72890ECB7005494DA /* Extensions.swift */,
 				AF4047CB2890EB34005494DA /* Assets.xcassets */,
 				AF4047CD2890EB34005494DA /* Preview Content */,
 				AF4047FF289104F3005494DA /* SubscriptionRow.swift */,
 				AF404806289185F6005494DA /* SubscriptionListViewModel.swift */,
+				AF404808289187EA005494DA /* AllSubscriptionList.swift */,
+				AF4047F92890F4D8005494DA /* SubscriptionModel.swift */,
 			);
 			path = "sub-conscious";
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF40480E289231B1005494DA /* HomeView.swift in Sources */,
 				AF4047FC28910274005494DA /* PreviewData.swift in Sources */,
 				AF4047FA2890F4D8005494DA /* SubscriptionModel.swift in Sources */,
 				AF404807289185F6005494DA /* SubscriptionListViewModel.swift in Sources */,
