@@ -12,3 +12,4 @@ final class SubscriptionListViewModel: ObservableObject {
     @Published var subscriptions: [Subscription] = []
     
 }
+

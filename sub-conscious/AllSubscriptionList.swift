@@ -13,8 +13,10 @@ struct AllSubscriptionList: View {
         VStack {
             HStack {
                 //MARK: Header Title
+                
                 Text("All Subscriptions")
                     .bold()
+                    .padding(.leading, 20)
                 
                 Spacer()
                 
@@ -28,6 +30,7 @@ struct AllSubscriptionList: View {
                     }
                     .foregroundColor(Color.text)
                 }
+                .padding(.trailing, 50)
             }
             .padding(.top)
             
@@ -35,13 +38,15 @@ struct AllSubscriptionList: View {
             ForEach(subscriptionListVM.subscriptions) { subscription in
                 SubscriptionRow(subscription: subscription)
                 
+                    .padding()
+                    .frame(width: UIScreen.main.bounds.width / 1.1)
+                    .background(Color.systemBackground)
+                    .clipShape(RoundedRectangle(cornerRadius: 20, style: .continuous))
+                    .shadow(color: Color.primary.opacity(0.2), radius: 10, x: 0, y: 5)
+
                 Divider()
             }
         }
-        .padding()
-        .background(Color.systemBackground)
-        .clipShape(RoundedRectangle(cornerRadius: 20, style: .continuous))
-        .shadow(color: Color.primary.opacity(0.2), radius: 10, x: 0, y: 5)
     }
 }
 
