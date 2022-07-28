@@ -24,6 +24,7 @@
 		AF4048102892349B005494DA /* AnalyticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF40480F2892349B005494DA /* AnalyticsView.swift */; };
 		AF40481228923534005494DA /* RecommendationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF40481128923534005494DA /* RecommendationView.swift */; };
 		AF4048142892359D005494DA /* ArchiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4048132892359D005494DA /* ArchiveView.swift */; };
+		AF40481928924EF3005494DA /* SwiftUIX in Frameworks */ = {isa = PBXBuildFile; productRef = AF40481828924EF3005494DA /* SwiftUIX */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF40480328918498005494DA /* SwiftUIFontIcon in Frameworks */,
+				AF40481928924EF3005494DA /* SwiftUIX in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,6 +176,7 @@
 			name = "sub-conscious";
 			packageProductDependencies = (
 				AF40480228918498005494DA /* SwiftUIFontIcon */,
+				AF40481828924EF3005494DA /* SwiftUIX */,
 			);
 			productName = "sub-conscious";
 			productReference = AF4047C42890EB32005494DA /* sub-conscious.app */;
@@ -249,6 +252,7 @@
 			mainGroup = AF4047BB2890EB32005494DA;
 			packageReferences = (
 				AF40480128918498005494DA /* XCRemoteSwiftPackageReference "SwiftUIFontIcon" */,
+				AF40481728924EF3005494DA /* XCRemoteSwiftPackageReference "SwiftUIX" */,
 			);
 			productRefGroup = AF4047C52890EB32005494DA /* Products */;
 			projectDirPath = "";
@@ -631,6 +635,14 @@
 				kind = branch;
 			};
 		};
+		AF40481728924EF3005494DA /* XCRemoteSwiftPackageReference "SwiftUIX" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftUIX/SwiftUIX";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.2;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -638,6 +650,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = AF40480128918498005494DA /* XCRemoteSwiftPackageReference "SwiftUIFontIcon" */;
 			productName = SwiftUIFontIcon;
+		};
+		AF40481828924EF3005494DA /* SwiftUIX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF40481728924EF3005494DA /* XCRemoteSwiftPackageReference "SwiftUIX" */;
+			productName = SwiftUIX;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

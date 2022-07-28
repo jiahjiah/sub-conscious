@@ -28,17 +28,6 @@ struct ContentView: View {
                     }
             
             }
-            .background(Color.background)
-            .navigationBarTitleDisplayMode(.inline)
-            .toolbar{
-                //MARK: Notification Icon
-                ToolbarItem {
-                    Image(systemName: "person.circle.fill")
-                        .renderingMode(.original)
-                        .foregroundStyle(Color.icon, .primary)
-                }
-            }
-            .navigationViewStyle(.stack)
         }
 }
 
