@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct sub_consciousApp: App {
+    @State var transactionistVM = SubscriptionListViewModel()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(transactionistVM)
         }
     }
 }
