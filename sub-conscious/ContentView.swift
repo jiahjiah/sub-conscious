@@ -9,9 +9,24 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        NavigationView{
-            ScrollView {
+        TabView {
                 HomeView()
+                    .tabItem {
+                        Image(systemName: "house")
+                    }
+                AnalyticsView()
+                    .tabItem {
+                        Image(systemName: "chart.line.uptrend.xyaxis")
+                    }
+                RecommendationView()
+                    .tabItem {
+                        Image(systemName: "lightbulb")
+                    }
+                ArchiveView()
+                    .tabItem {
+                        Image(systemName: "folder.fill")
+                    }
+            
             }
             .background(Color.background)
             .navigationBarTitleDisplayMode(.inline)
@@ -23,9 +38,8 @@ struct ContentView: View {
                         .foregroundStyle(Color.icon, .primary)
                 }
             }
+            .navigationViewStyle(.stack)
         }
-        .navigationViewStyle(.stack)
-    }
 }
 
 struct ContentView_Previews: PreviewProvider {

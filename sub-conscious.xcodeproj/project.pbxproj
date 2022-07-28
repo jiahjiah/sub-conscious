@@ -21,6 +21,9 @@
 		AF404807289185F6005494DA /* SubscriptionListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF404806289185F6005494DA /* SubscriptionListViewModel.swift */; };
 		AF404809289187EA005494DA /* AllSubscriptionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF404808289187EA005494DA /* AllSubscriptionList.swift */; };
 		AF40480E289231B1005494DA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF40480D289231B1005494DA /* HomeView.swift */; };
+		AF4048102892349B005494DA /* AnalyticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF40480F2892349B005494DA /* AnalyticsView.swift */; };
+		AF40481228923534005494DA /* RecommendationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF40481128923534005494DA /* RecommendationView.swift */; };
+		AF4048142892359D005494DA /* ArchiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4048132892359D005494DA /* ArchiveView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +60,9 @@
 		AF404806289185F6005494DA /* SubscriptionListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionListViewModel.swift; sourceTree = "<group>"; };
 		AF404808289187EA005494DA /* AllSubscriptionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllSubscriptionList.swift; sourceTree = "<group>"; };
 		AF40480D289231B1005494DA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		AF40480F2892349B005494DA /* AnalyticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsView.swift; sourceTree = "<group>"; };
+		AF40481128923534005494DA /* RecommendationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationView.swift; sourceTree = "<group>"; };
+		AF4048132892359D005494DA /* ArchiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +117,9 @@
 				AF4047C72890EB32005494DA /* sub_consciousApp.swift */,
 				AF4047C92890EB32005494DA /* ContentView.swift */,
 				AF40480D289231B1005494DA /* HomeView.swift */,
+				AF40480F2892349B005494DA /* AnalyticsView.swift */,
+				AF40481128923534005494DA /* RecommendationView.swift */,
+				AF4048132892359D005494DA /* ArchiveView.swift */,
 				AF4047F72890ECB7005494DA /* Extensions.swift */,
 				AF4047CB2890EB34005494DA /* Assets.xcassets */,
 				AF4047CD2890EB34005494DA /* Preview Content */,
@@ -283,8 +292,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF40480E289231B1005494DA /* HomeView.swift in Sources */,
+				AF4048142892359D005494DA /* ArchiveView.swift in Sources */,
 				AF4047FC28910274005494DA /* PreviewData.swift in Sources */,
 				AF4047FA2890F4D8005494DA /* SubscriptionModel.swift in Sources */,
+				AF4048102892349B005494DA /* AnalyticsView.swift in Sources */,
+				AF40481228923534005494DA /* RecommendationView.swift in Sources */,
 				AF404807289185F6005494DA /* SubscriptionListViewModel.swift in Sources */,
 				AF4047CA2890EB32005494DA /* ContentView.swift in Sources */,
 				AF4047F82890ECB7005494DA /* Extensions.swift in Sources */,
