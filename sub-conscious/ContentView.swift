@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         TabView {
-                HomeView()
+                CombinedHomeView()
                     .tabItem {
                         Image(systemName: "house")
                     }
@@ -20,15 +20,15 @@ struct ContentView: View {
                     }
                 RecommendationView()
                     .tabItem {
-                        Image(systemName: "lightbulb")
+                        Image(systemName: "bell.fill")
                     }
                 ArchiveView()
                     .tabItem {
-                        Image(systemName: "folder.fill")
+                        Image(systemName: "person.fill")
                     }
-            
             }
-        }
+
+    }
 }
 
 struct ContentView_Previews: PreviewProvider {

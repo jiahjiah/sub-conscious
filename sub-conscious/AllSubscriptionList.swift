@@ -14,7 +14,7 @@ struct AllSubscriptionList: View {
             HStack {
                 //MARK: Header Title
                 
-                Text("All Subscriptions")
+                Text("Subscriptions")
                     .bold()
                     .padding(.leading, 20)
                 
@@ -32,7 +32,6 @@ struct AllSubscriptionList: View {
                 }
                 .padding(.trailing, 50)
             }
-            .padding(.top)
             
             //MARK: All Subscription List
             ForEach(subscriptionListVM.subscriptions) { subscription in

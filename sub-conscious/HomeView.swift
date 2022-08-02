@@ -10,111 +10,60 @@ import SwiftUIX
 
 struct HomeView: View {
     var body: some View {
-        NavigationView {
             ScrollView {
-                VStack(alignment: .leading, spacing: 24) {
-                ZStack {
-                        
-                        RoundedRectangle(cornerRadius: 20)
-                            .fill(LinearGradient(
-                                    gradient: Gradient(stops: [
-                                .init(color: Color(#colorLiteral(red: 0.07058823108673096, green: 0.26666659116744995, blue: 0.5607843399047852, alpha: 1)), location: 0),
-                                .init(color: Color(#colorLiteral(red: 0.3376389145851135, green: 0.9208333492279053, blue: 0.8508499264717102, alpha: 1)), location: 1)]),
-                                    startPoint: UnitPoint(x: 0.8472221674106832, y: -0.36111113989033466),
-                                    endPoint: UnitPoint(x: -0.4110787222278236, y: 1.8127854520696247)))
-                            .frame(height: 400)
-                            .frame(maxWidth: .infinity)
-                            .edgesIgnoringSafeArea(.all)
-                        
-                        Image("Other 13")
-                            .resizable()
-                            .aspectRatio(contentMode: .fit)
-                            .frame(height: 400)
-                            .frame(maxWidth: .infinity)
-                            .shadow(color: Color.black.opacity(0.4), radius: 10, x: 0, y: 5)
-                        VStack {
-                            Text("Your total for this month is:")
-                                .font(.title3)
-                                .bold()
-                                .foregroundColor(.white.opacity(0.8))
-                                .frame(maxWidth: .infinity, alignment: .leading)
-                                .opacity(0.7)
-                            Text("CAD$89.46")
-                                .font(.largeTitle).bold()
-                                .foregroundColor(.white)
-                                .frame(maxWidth: .infinity, alignment: .center)
-                                .padding()
-                            
+                    VStack { //to make all content together
+                           
+                            ZStack { //for header part
+                                
+                                //MARK: Background
+                                Image("background")
+                                    .resizable()
+                                    .aspectRatio(contentMode: .fit)
+                                    .ignoresSafeArea(.container, edges: .top)
+                                    Spacer()
+
+                                ZStack {
+                                    RoundedRectangle(cornerRadius: 10)
+                                    .fill(Color(#colorLiteral(red: 1, green: 1, blue: 1, alpha: 0.800000011920929)))
+                                    RoundedRectangle(cornerRadius: 10)
+                                    .strokeBorder(Color(#colorLiteral(red: 1, green: 1, blue: 1, alpha: 0.699999988079071)), lineWidth: 3)
+                                    
+                                    //MARK: Total for Month
+                                    VStack {
+                                        Text("THIS MONTH YOU HAVE USED ").font(.system(size: 12, weight: .regular)).foregroundColor(Color(#colorLiteral(red: 0, green: 0, blue: 0, alpha: 0.5)))
+                                        Text("CA$89.46").font(.system(size: 35, weight: .heavy))
+                                    }
+                                }
+                                .compositingGroup()
+                                .offset(y: 170)
+                                .frame(width: 276, height: 97)
+                                .shadow(color: Color(#colorLiteral(red: 0, green: 0, blue: 0, alpha: 0.25)), radius:4, x:0, y:4)
                         }
-                        .padding()
-                        .background(VisualEffectBlurView(blurStyle: .systemThinMaterialDark))
-                        .cornerRadius(20)
-                        .padding(10)
-                        .shadow(color: Color.white.opacity(0.3), radius: 5, x:0, y: 5)
+                            VStack(alignment: .leading) { //rest of content/lower screen
+                                
+                                //MARK: Monthly Report
+                                Image("monthly report")
+                                    .padding(.top, 30)
+                                
+                                //MARK: Title
+                                Text("August")
+                                    .font(.title)
+                                    .bold()
+                                    .padding(.leading, 20)
 
-                        
-                    }
-                }
                 
-                VStack(alignment: .leading, spacing: 24) {
-                    //MARK: Title
-
-                    Text("July")
-                        .font(.title)
-                        .bold()
-                    
-                    //MARK: Monthly Report
-                    VStack(alignment: .leading, spacing: 10.0) {
-                        Image("Blob 1")
-                            .resizable()
-                            .aspectRatio(contentMode: .fit)
-                            .frame(height: 128)
+                                //MARK: TransactionList
+                                AllSubscriptionList()
+                            }
+                            .padding()
                             .frame(maxWidth: .infinity)
-                            .shadow(color: Color.black.opacity(0.4), radius: 10, x: 0, y: 5)
-                        
-                        Text("Monthly Report")
-                            .font(.title2)
-                            .fontWeight(.bold)
-                        Text("Your monthly Report for June, 2022. Let's see how you did!")
-                            .opacity(0.7)
-                    }
-                    .padding()
-                    .background(
-                        LinearGradient(
-                            gradient: Gradient(stops: [
-                                .init(color: Color(#colorLiteral(red: 1, green: 0.41960784792900085, blue: 0.2078431397676468, alpha: 1)), location: 0),
-                                .init(color: Color(#colorLiteral(red: 0.9686274528503418, green: 0.772549033164978, blue: 0.6235294342041016, alpha: 1)), location: 1)]),
-                            startPoint: UnitPoint(x: 0.5002249700310126, y: 3.0834283490377423e-7),
-                            endPoint: UnitPoint(x: -0.0016390833199537713, y: 0.977085239704672))
-                    )
-                    .cornerRadius(30.0)
-                    .foregroundColor(.white)
-                    .shadow(color: Color.black.opacity(0.4), radius: 10, x: 0, y: 5)
+                            
+                    }//end to screen vstack
+                } //end of ZStack
+                    .overlay(Image("+ button"), alignment: .bottom)
 
-                    
-                    
-                    //MARK: TransactionList
-                    AllSubscriptionList()
-                }
-                .padding()
-                .frame(maxWidth: .infinity)
-            }
-
-            }
-        .background(Color.background)
-        .navigationTitle("July 2022")
-        .navigationBarTitleDisplayMode(.inline)
-        .toolbar{
-            //MARK: Notification Icon
-            ToolbarItem {
-                Image(systemName: "person.circle.fill")
-                    .renderingMode(.original)
-                    .foregroundStyle(Color.icon, .primary)
-            }
         }
-        .navigationViewStyle(.stack)
-
-    }
+    
 }
 
 struct HomeView_Previews: PreviewProvider {

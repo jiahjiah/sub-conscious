@@ -14,6 +14,8 @@ extension Color {
     static let icon = Color("Icon")
     static let text = Color("Text")
     static let darkIcon = Color("DarkIcon")
+    static let darkOrange = Color("DarkOrange")
+    static let lightOrange = Color("LightOrange")
 
     static let systemBackground = Color(uiColor: .systemBackground)
 }
@@ -35,3 +37,4 @@ extension String {
         return parsedDate
     }
 }
+
