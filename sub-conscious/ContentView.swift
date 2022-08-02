@@ -13,6 +13,7 @@ struct ContentView: View {
                 CombinedHomeView()
                     .tabItem {
                         Image(systemName: "house")
+                            .padding()
                     }
                 AnalyticsView()
                     .tabItem {
