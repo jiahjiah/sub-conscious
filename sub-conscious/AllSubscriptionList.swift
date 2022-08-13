@@ -52,7 +52,7 @@ struct AllSubscriptionList: View {
 struct AllSubscriptionList_Previews: PreviewProvider {
     static let subscriptionListVM: SubscriptionListViewModel = {
         let subscriptionListVM = SubscriptionListViewModel()
-        subscriptionListVM.subscriptions = subscriptionListPreviewData
+        subscriptionListVM.subscriptions = subscriptionListPreviewUpcoming
         return subscriptionListVM
     }()
     

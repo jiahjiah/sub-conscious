@@ -35,7 +35,7 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static let subscriptionListVM: SubscriptionListViewModel = {
         let subscriptionListVM = SubscriptionListViewModel()
-        subscriptionListVM.subscriptions = subscriptionListPreviewData
+        subscriptionListVM.subscriptions = subscriptionListPreviewDataMore
         return subscriptionListVM
     }()
     

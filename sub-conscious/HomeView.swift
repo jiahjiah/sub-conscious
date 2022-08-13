@@ -31,7 +31,7 @@ struct HomeView: View {
                                     //MARK: Total for Month
                                     VStack {
                                         Text("THIS MONTH YOU HAVE USED ").font(.system(size: 12, weight: .regular)).foregroundColor(Color(#colorLiteral(red: 0, green: 0, blue: 0, alpha: 0.5)))
-                                        Text("CA$89.46").font(.system(size: 35, weight: .heavy))
+                                        Text("CA$101.96").font(.system(size: 35, weight: .heavy))
                                     }
                                 }
                                 .compositingGroup()
